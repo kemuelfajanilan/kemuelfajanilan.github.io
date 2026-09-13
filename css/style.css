@@ -1238,3 +1238,73 @@ body {
     flex-wrap: wrap;
   }
 }
+
+
+/* =========================
+   HEADER AVATAR — HARD SIZE FIX
+   Prevents the profile image from expanding to its intrinsic size.
+========================= */
+.site-header .brand {
+  flex: 0 1 auto;
+  max-width: min(320px, 42vw);
+  overflow: hidden;
+}
+
+.site-header .brand-photo {
+  width: 44px !important;
+  height: 44px !important;
+  min-width: 44px !important;
+  min-height: 44px !important;
+  max-width: 44px !important;
+  max-height: 44px !important;
+  flex: 0 0 44px !important;
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  object-fit: cover;
+  object-position: center 18%;
+  overflow: hidden;
+}
+
+.site-header .brand-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .site-header .brand {
+    max-width: min(250px, 52vw);
+  }
+
+  .site-header .brand-photo {
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    max-width: 40px !important;
+    max-height: 40px !important;
+    flex-basis: 40px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .site-header .brand {
+    max-width: 52vw;
+    gap: 8px;
+  }
+
+  .site-header .brand-photo {
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 36px !important;
+    min-height: 36px !important;
+    max-width: 36px !important;
+    max-height: 36px !important;
+    flex-basis: 36px !important;
+  }
+
+  .site-header .brand-name {
+    font-size: .76rem;
+  }
+}

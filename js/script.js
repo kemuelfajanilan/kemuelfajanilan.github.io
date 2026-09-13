@@ -1,4 +1,5 @@
 const body = document.body;
+
 const themeToggle = document.getElementById("themeToggle");
 const accentToggle = document.getElementById("accentToggle");
 const accentPanel = document.getElementById("accentPanel");
@@ -16,11 +17,9 @@ const ACCENTS = {
 
 function applyTheme(theme) {
   body.classList.toggle("light", theme === "light");
-
   if (themeToggle) {
     themeToggle.textContent = theme === "light" ? "☾" : "☼";
   }
-
   localStorage.setItem("portfolio-theme", theme);
 }
 
@@ -65,7 +64,6 @@ if (accentToggle && accentPanel) {
 document.querySelectorAll("[data-accent]").forEach(button => {
   button.addEventListener("click", () => {
     applyAccent(button.dataset.accent);
-
     if (accentPanel) {
       accentPanel.classList.remove("open");
       accentPanel.setAttribute("aria-hidden", "true");
@@ -85,7 +83,6 @@ document.querySelectorAll(".main-nav a").forEach(link => {
     if (mainNav) {
       mainNav.classList.remove("open");
     }
-
     if (navToggle) {
       navToggle.setAttribute("aria-expanded", "false");
     }
@@ -204,7 +201,6 @@ if (contactForm) {
 
       try {
         const data = await response.json();
-
         if (Array.isArray(data.errors) && data.errors.length > 0) {
           message = data.errors
             .map(error => error.message)
