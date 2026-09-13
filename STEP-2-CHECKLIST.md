@@ -97,7 +97,7 @@ It should open in Chrome, Edge, Firefox, or another browser.
 
 ### Recommended method in VS Code
 
-Install the "Live Server" extension.
+Install the "   " extension.
 
 Then:
 1. Open the portfolio folder in VS Code.
