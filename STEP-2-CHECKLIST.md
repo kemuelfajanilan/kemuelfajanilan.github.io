@@ -8,7 +8,7 @@ Rename your chosen photo to:
 
 Then place it here:
 
-    images/profile.png
+    images/profile.jpg
 
 Recommended:
 - Portrait orientation
@@ -18,7 +18,7 @@ Recommended:
 - PNG or high-quality JPG source
 - Keep the final website filename exactly as `profile.png`
 
-The site automatically uses the photo when `images/profile.png` exists.
+The site automatically uses the photo when `images/profile.jpg` exists.
 
 ---
 
@@ -146,12 +146,12 @@ GitHub Pages paths are case-sensitive.
 
 These are different:
 
-    images/profile.png
-    images/Profile.png
+    images/profile.jpg
+    images/Profile.jpg
 
 Keep the exact filename:
 
-    images/profile.png
+    images/profile.jpg
 
 Also keep:
 

@@ -21,7 +21,7 @@ Read:
 `STEP-2-CHECKLIST.md`
 
 ## Files you still need to add
-- `images/profile.png`
+- `images/profile.jpg`
 - `resume/Kemuel-Fajanilan-Resume.pdf`
 
 ## Remaining placeholders
