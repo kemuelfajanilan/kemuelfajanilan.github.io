@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Kemuel F. Fajanilan — Computer Engineer and Technology Developer specializing in web development, software, IoT, embedded systems, and IT support." />
+  <title>Kemuel F. Fajanilan | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">KF</span>
+        <span class="brand-name">Kemuel F. Fajanilan</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle light and dark mode">☼</button>
+        <button class="icon-btn" id="accentToggle" aria-label="Change accent color">●</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">COMPUTER ENGINEER • TECHNOLOGY DEVELOPER</p>
+          <h1>
+            Building practical digital and
+            <span class="gradient-text">engineering solutions.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            I’m <strong>Kemuel F. Fajanilan</strong>, a Computer Engineering graduate focused on building
+            practical technology solutions across web development, software systems, IoT, embedded
+            systems, computer hardware, IT support, and technical documentation.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-secondary" href="resume/Kemuel-Fajanilan-Resume.pdf" target="_blank" rel="noopener">
+              Download Resume
+            </a>
+            <a class="text-link" href="#contact">Contact Me →</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>5+</strong>
+              <span>Core Skill Areas</span>
+            </div>
+            <div>
+              <strong>4+</strong>
+              <span>Featured Projects</span>
+            </div>
+            <div>
+              <strong>∞</strong>
+              <span>Learning Mindset</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <div class="profile-photo-wrap">
+              <img
+                class="profile-photo"
+                src="images/profile.png"
+                alt="Professional portrait of Kemuel F. Fajanilan"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+              />
+              <div class="profile-photo-placeholder" style="display:none;">
+                <span>Professional Photo</span>
+                <small>Add your image as <code>images/profile.png</code></small>
+              </div>
+            </div>
+
+            <div class="profile-card-footer">
+              <div>
+                <p class="status-dot"><span></span> Open to opportunities</p>
+                <strong>Kemuel F. Fajanilan</strong>
+                <small>Philippines • UTC+8</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container tech-strip reveal">
+        <span>Next.js</span>
+        <span>React</span>
+        <span>JavaScript</span>
+        <span>Supabase</span>
+        <span>ESP32</span>
+        <span>Arduino</span>
+        <span>IoT</span>
+        <span>Networking</span>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT</p>
+          <h2>A multidisciplinary technology professional.</h2>
+          <p>
+            My background combines software development, computer systems, electronics,
+            embedded systems, and technical project work.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="content-card reveal">
+            <span class="card-number">01</span>
+            <h3>My Journey</h3>
+            <p>
+              My Computer Engineering background has given me experience across both hardware and
+              software development. I have worked on web applications, embedded systems, IoT concepts,
+              automation prototypes, and computerized management systems.
+            </p>
+          </article>
+
+          <article class="content-card reveal">
+            <span class="card-number">02</span>
+            <h3>What Drives Me</h3>
+            <p>
+              I enjoy solving practical problems through technology. I focus on creating solutions
+              that are functional, understandable, maintainable, and useful to the people who rely on them.
+            </p>
+          </article>
+
+          <article class="content-card reveal">
+            <span class="card-number">03</span>
+            <h3>Future Focus</h3>
+            <p>
+              I aim to continue growing in software development, web technologies, computer systems,
+              IoT, embedded systems, automation, and technical support while contributing to real-world projects.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">WHAT I DO</p>
+          <h2>Technical capability across software and hardware.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Software & Web</h3>
+            <p>Responsive interfaces, web applications, databases, authentication, and system workflows.</p>
+            <div class="tag-list">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+              <span>Next.js</span><span>Tailwind</span><span>Supabase</span><span>SQL</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">IoT</div>
+            <h3>IoT & Embedded Systems</h3>
+            <p>Sensor integration, microcontroller logic, automation concepts, monitoring, and control systems.</p>
+            <div class="tag-list">
+              <span>ESP32</span><span>Arduino</span><span>Sensors</span><span>Motor Control</span>
+              <span>Prototyping</span><span>Automation</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">IT</div>
+            <h3>IT & Computer Systems</h3>
+            <p>Computer setup, operating systems, troubleshooting, networking fundamentals, and technical support.</p>
+            <div class="tag-list">
+              <span>Windows</span><span>Hardware</span><span>Networking</span><span>Troubleshooting</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">VA</div>
+            <h3>Technical Assistance</h3>
+            <p>Documentation, data organization, research, digital tools, and technology-focused virtual assistance.</p>
+            <div class="tag-list">
+              <span>Documentation</span><span>Research</span><span>Data Entry</span><span>Productivity Tools</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects that connect ideas with implementation.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-topline">
+              <span class="project-type">Web Application</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>QNHS-EduHub</h3>
+            <p>
+              A role-based Senior High School academic portal designed for Quinabigan National High School,
+              providing separate workflows for administrators, teachers, and students.
+            </p>
+            <div class="tag-list">
+              <span>Next.js</span><span>React</span><span>Tailwind CSS</span><span>Supabase</span>
+            </div>
+            <ul class="project-points">
+              <li>Separate Admin, Teacher, and Student authentication and dashboards</li>
+              <li>Student, teacher, section, adviser, subject, and enrollment management</li>
+              <li>Learning materials, assignments, announcements, and account recovery workflows</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" aria-label="QNHS-EduHub live demo">Live Demo ↗</a>
+              <a href="#" aria-label="QNHS-EduHub source code">Source ↗</a>
+            </div>
+            <p class="link-note">Replace these links with your deployed project and GitHub repository when available.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="project-type">Business System</span>
+              <span class="project-year">2023</span>
+            </div>
+            <h3>Inventory & Sales Management System</h3>
+            <p>
+              A computerized inventory and sales management system developed for Miko's Banana Crackers to
+              organize product records, sales transactions, and stock monitoring in one workflow.
+            </p>
+            <div class="tag-list">
+              <span>Full-Stack</span><span>Inventory</span><span>Sales</span><span>Documentation</span>
+            </div>
+            <p class="role-label">Role: Main Programmer & Documentation Lead</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="project-type">Engineering Design</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3>Thumbstone Grass Cutter</h3>
+            <p>
+              A battlebot-inspired grass-cutting prototype combining mechanical design, DC motor control,
+              electronics, programming, system integration, and project documentation.
+            </p>
+            <div class="tag-list">
+              <span>Hardware</span><span>Electronics</span><span>Programming</span><span>Integration</span>
+            </div>
+            <p class="role-label">Role: Project Leader / Developer</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="project-type">IoT / Embedded</span>
+              <span class="project-year">Project</span>
+            </div>
+            <h3>IoT Water-Level Monitoring</h3>
+            <p>
+              An ESP32-based water-level monitoring and control concept for a multi-tank system using float
+              switches, status indicators, automatic valve logic, and tank-priority control.
+            </p>
+            <div class="tag-list">
+              <span>ESP32</span><span>Float Switches</span><span>IoT</span><span>Automation</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>Academic, technical, and industry exposure.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Industry Training</span>
+              <h3>On-the-Job Training</h3>
+              <p>
+                Completed on-the-job training with exposure to technical documentation, hardware support,
+                engineering workflows, and real-world system observation, strengthening practical
+                troubleshooting and project support skills.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Education</span>
+              <h3>BS Computer Engineering</h3>
+              <p>
+                Developed foundations in programming, electronics, computer systems, networking,
+                embedded systems, project design, and technical documentation.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Project Leadership</span>
+              <h3>Design & Development Projects</h3>
+              <p>
+                Led and contributed to multidisciplinary projects involving system design, programming,
+                hardware integration, documentation, and team coordination.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-cta reveal">
+          <div>
+            <p class="eyebrow">RESUME</p>
+            <h3>Want the complete professional overview?</h3>
+            <p>View my education, skills, technical experience, and project background in one document.</p>
+          </div>
+          <a class="btn btn-primary" href="resume/Kemuel-Fajanilan-Resume.pdf" target="_blank" rel="noopener">
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let’s build something useful.</h2>
+          <p>
+            I’m open to entry-level and junior technology roles, freelance projects, technical collaborations,
+            and opportunities involving software development, web systems, IoT, embedded technology,
+            computer systems, IT support, or technical assistance.
+          </p>
+
+          <div class="contact-details">
+            <a href="mailto:kemuel.faala.fajanilan@gmail.com">
+              <span>Email</span>
+              <strong>kemuel.faala.fajanilan@gmail.com</strong>
+            </a>
+            <div>
+              <span>Location</span>
+              <strong>Philippines</strong>
+            </div>
+            <div>
+              <span>Timezone</span>
+              <strong>UTC+8 / Philippine Standard Time</strong>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/kemuel-fajanilan-3420b72b7/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://github.com/kemuelfajanilan73-lang" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="Project or opportunity" required />
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note" id="formNote">
+            This demo opens your email app. Replace the placeholder email in <code>js/script.js</code>.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="currentYear"></span> Kemuel F. Fajanilan. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="accent-panel" id="accentPanel" aria-hidden="true">
+    <p>Accent</p>
+    <div class="accent-options">
+      <button data-accent="#6d5dfc" style="--swatch:#6d5dfc" aria-label="Purple accent"></button>
+      <button data-accent="#00a8ff" style="--swatch:#00a8ff" aria-label="Blue accent"></button>
+      <button data-accent="#00b894" style="--swatch:#00b894" aria-label="Green accent"></button>
+      <button data-accent="#ff7a00" style="--swatch:#ff7a00" aria-label="Orange accent"></button>
+      <button data-accent="#e84393" style="--swatch:#e84393" aria-label="Pink accent"></button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
